@@ -1,0 +1,204 @@
+.systems{
+	width:1350px;
+	height:1000px;
+	background-color: black;
+	position: relative;
+	margin:0 auto;
+}
+.sun{
+	border-radius: 50%;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	background-color: #f9d71c;
+	box-shadow: 15px 15px 140px 100px #f9d71c;
+	opacity: 0.8;
+}
+
+.mercury{
+	border-radius: 100%;
+	position: absolute;
+	top: 50%;
+	left: 7%;
+	transform:translate(-10%, -10%);
+	width: 130px;
+	height: 130px;
+	animation: myanimation7 5s linear infinite;
+}
+.mercury img{
+  	width: 100%;
+  	height: 100%;
+}
+@keyframes myanimation7 {
+  0%{
+    transform: rotate(0deg) translateX(100px);
+    transform: rotate(0deg) translateX(100px);
+  }
+  100% {
+    transform: rotate(360deg) translateX(100px);
+    transform: rotate(360deg) translate(100px);
+  }
+}
+
+.venus{
+	border-radius: 30%;
+	position: absolute;
+	top: 20%;
+	left: 25%;
+	transform:translate(-10%, -10%);
+	width:90px;
+	height: 90px;
+	animation: myanimation1 5s linear infinite;
+
+}
+.venus img{
+	width:100%;
+	height: 100%;
+}
+@keyframes myanimation1 {
+  0%{
+    transform: rotate(0deg) translateX(100px);
+    transform: rotate(0deg) translateX(100px);
+  }
+  100% {
+    transform: rotate(360deg) translateX(100px);
+    transform: rotate(360deg) translateX(100px);
+  }
+}
+
+
+.earth{
+	border-radius: 30%;
+	position: absolute;
+	top: 6%;
+	left: 50%;
+	transform:translate(-10%, -10%);
+	width:120px;
+	height: 120px;
+	animation: myanimation2 5s linear infinite;
+}
+ 
+.earth img{
+	width: 100%;
+	height: 100%;
+}
+@keyframes myanimation2 {
+  0%{
+    transform: rotate(0deg) translateX(50px);
+    transform: rotate(0deg) translateX(50px);
+  }
+  100% {
+    transform: rotate(360deg) translateX(50px);
+    transform: rotate(360deg) translateX(50px);
+  }
+}
+.mars{
+	border-radius: 30%;
+	position: absolute;
+	top: 25%;
+	right: 10%;
+	transform:translate(-10%, -10%);
+	width:100px;
+	height: 100px;
+  animation: myanimation3 5s linear infinite;
+}
+
+.mars img{
+	width: 100%;
+	height: 100%;
+}
+@keyframes myanimation3 {
+  0%{
+    transform: rotate(0deg) translateX(100px);
+    transform: rotate(0deg) translateX(100px);
+  }
+  100% {
+    transform: rotate(360deg) translateX(100px);
+    transform: rotate(360deg) translateX(100px);
+  }
+}
+.jupiter{
+	border-radius: 30%;
+	position: absolute;
+	top: 50%;
+	right: 3%;
+	transform:translate(-10%, -10%);
+	width:150px;
+	height: 150px;
+	animation: myanimation4 5s linear infinite;
+}
+
+.jupiter img{
+	width:100%;
+	height: 100%;
+}
+@keyframes myanimation4 {
+  0%{
+    transform: rotate(0deg) translateX(50px);
+    transform: rotate(0deg) translateX(50px);
+  }
+  100% {
+    transform: rotate(360deg) translateX(50px);
+    transform: rotate(360deg) translateX(50px);
+  }
+}
+
+.saturn{
+	border-radius: 30%;
+	position: absolute;
+	bottom: 5%;
+	right: 15%;
+	transform:translate(-10%, -10%);
+	width:140px;
+	height: 140px;
+	animation: myanimation5 5s linear infinite;
+}
+.saturn img{
+	width:100%;
+	height: 100%;
+}
+@keyframes myanimation5 {
+  0%{
+    transform: rotate(0deg) translateX(28px);
+    transform: rotate(0deg) translateX(28px);
+  }
+  100% {
+    transform: rotate(360deg) translateX(28px);
+    transform: rotate(360deg) translateX(28px);
+  }
+}
+
+	
+.neptune{
+	border-radius: 30%;
+	position: absolute;
+	bottom: 9%;
+	left: 16%;
+	transform:translate(-10%, -10%)
+	width: 80px;
+	height: 80px;
+	animation: myanimation6 5s linear infinite;
+	
+}
+.neptune img{
+	width:40%;
+	height: 90%;
+
+}
+@keyframes myanimation6 {
+  0%{
+    transform: rotate(0deg) translateX(100px);
+    transform: rotate(0deg) translateX(100px);
+  }
+  100% {
+    transform: rotate(360deg) translateX(100px);
+    transform: rotate(360deg) translateX(100px);
+  }
+}
+
+
+
+
+
+
